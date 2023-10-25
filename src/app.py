@@ -68,22 +68,11 @@ if __name__ == "__main__":
 
     chat = get_conversation_chain(vectorstore)
 
-    # response = chat({"question": "Who is Marcos?"})
-    # # response = chat({"question": "What is your profession?"})
+    response = chat({"question": "Who is Marcos?"})
+    # response = chat({"question": "What is your profession?"})
     # response = chat({"question": "What is your last work experience?"})
     # response = chat({"question": "What was the last company he worked for?"})
     # response = chat({"question": "Which company does he currently work for?"})
     # response = chat({"question": "What types of projects has he worked on so far?"})
-
-    # response = chat(
-    #     {
-    #         "question": "I have a Data Science project, who would have the experience to work on it?"
-    #     }
-    # )
-    # response = chat(
-    #     {
-    #         "question": "I have a project that needs to create a web application with Java, who would have this experience?"
-    #     }
-    # )
 
     print(response)
